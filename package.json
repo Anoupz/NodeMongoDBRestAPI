@@ -1,0 +1,19 @@
+{
+  "name": "mean_app",
+  "version": "0.0.0",
+  "description": "Mean Stack Training",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anoop",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.9.3",
+    "express": "^4.10.8",
+    "jsonwebtoken": "^3.2.2",
+    "mongoose": "^3.8.22",
+    "morgan": "^1.5.1"
+  }
+}
