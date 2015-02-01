@@ -10,7 +10,7 @@ var mongoose = require('mongoose'); // for working w/ our database
 var port = process.env.PORT || 8080; // set the port for our app
 var User = require('./model/user');
 var jwt = require('jsonwebtoken');
-var superSecret = 'Y9ygygAnoopAkila';
+var superSecret = 'Y9ygyg878ttftfftctg';
 
 // APP CONFIGURATION ---------------------
 // use body parser so we can grab information from POST requests
@@ -26,7 +26,7 @@ app.use(function (req, res, next) {
 });
 
 //connect to our database
-mongoose.connect('mongodb://angulardb:RMS1985NY@ds063869.mongolab.com:63869/anoop_angular');
+mongoose.connect('');
 
 //log all the request to console
 app.use(morgan('dev'));
